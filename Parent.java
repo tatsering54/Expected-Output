@@ -1,3 +1,4 @@
+//Run Time error Main class need to declare inside the class
 class Parent
 {
 	private void method1()
@@ -16,7 +17,7 @@ class Parent
 	{
 		System.out.println ("Child's method1()");
 	}
- 	public static void main(String args[]) // Run - Time error Main class need to declare inside the class  
+ 	public static void main(String args[])   
 	{
 		Parent p = new Child();
 		p.method2();
